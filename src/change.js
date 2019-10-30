@@ -14,9 +14,7 @@ if (Number.isNaN(amount)) {
 } else if (amount < MIN || amount > MAX) {
     console.log("\nInvalid\n")
 } else {
-    if(amount > 0.25)
-        var quartersTotal = 0;
-        while (amount > 0.25)
-        Math.floor(quartersTotal = amount - quarter)
+    
 }
-console.log("/n" + quartersTotal + " quarters./n")
+
+console.log ("\n" + quartersTotal + " quarters, " + dimeTotal + " dimes,\n");
